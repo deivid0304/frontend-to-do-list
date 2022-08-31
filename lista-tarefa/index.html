@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tarefas</title> <!-- Titulo da pagina da web-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Importando o link da fonte do google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Importando o link da fonte do google-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- Importando o link da fonte do google-->
+    <!--Obs: toda vez que for importar a fonte do google, ela tem que vir acima do link do arquivo CSS-->
+    <link rel="stylesheet" href="styles.css" /> <!-- Importando o link do arquivo CSS-->
+</head>
+
+<body>
+    <!-- Tudo que estiver aqui dentro é comentario -->
+    <img class="logo" src="logo.svg" alt="logo Ituring."/>
+    <main>
+        <h1>Lista de tarefas!</h1>
+        <p>Minha primeira lista de tarefas</p>
+        <input type="text" id="tarefa-nova"/>
+        <button class="botao" id="btn-adicionar">adicionar</button>
+
+        <div class="caixa">
+            <ul id="lista">
+                <!--<li>
+                    <span>Tarefa 1</span>
+                    <button class="excluir">x</button>
+                </li>-->
+            </ul>
+            <button class="botao bt-azul">Limpar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

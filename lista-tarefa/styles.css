@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'prompt', 'arial'; /*depois de linkado a fonte no HTML vc usa essa tag para poder chamar  a fonte no google*/
+    background-color: #23292e;
+
+}
+
+.logo {
+    width: 200px;
+    margin: 20px;
+}
+
+main{
+    max-width: 786px;
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1, p {
+    color: #fff;
+    text-align: center;
+}
+
+.botao{
+    background-color: #32cdac;
+    padding: 10px;
+    border: none;
+    flex: 1;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: #0f1626;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.bt-azul{
+    background-color: #4f6791;
+    color: #fff;
+    width: 40%;
+    margin-top: 40px;
+}
+
+.caixa{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#lista > li{
+    background-color: #dbdbdb;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.excluir{
+    background-color: #bdbcbc;
+    width: 16px;
+    height: 16px;
+    line-height: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#tarefa-nova{
+    background-color: #f1f1f1;
+    border: 3px solid #32cdac;
+    padding: 4px;
+    width: 80%;
+    height: 40px;
+    outline: none;
+    font-size: 14px;
+    color: #0f1726;
+    border-radius: 4px;
+    margin-top: 30px;
+}
